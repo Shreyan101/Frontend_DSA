@@ -22,6 +22,13 @@ Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 */
 
+/*
+
+finding the subarray with the largest sum, we can use Kadane's Algorithm. 
+This algorithm runs in O(n) time complexity, making it very efficient. 
+
+*/
+
 let nums = [5, 4, -1, 7, 8];
 
 const getMaxSubArray = (array) => {
